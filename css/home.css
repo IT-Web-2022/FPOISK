@@ -6,11 +6,10 @@ body {
     max-width: 300px;
     margin: auto;
     position: relative;
-    left: 10px;
 }
 
 .text-1 {
-    margin: auto;
+    margin-top: 50px;
 }
 
 .second-block {
@@ -114,6 +113,11 @@ body {
     margin-bottom: 30px;
     margin-top: 30px;
     box-shadow: 0 0 20px;
+    transition: filter .7s ease-in-out;
+}
+
+.Ycheb:hover {
+    filter: brightness(0.7)
 }
 
 .Nauch {
@@ -121,6 +125,11 @@ body {
     margin-top: 30px;
     box-shadow: 0 0 20px;
     margin-bottom: 30px;
+    transition: filter .7s ease-in-out;
+}
+
+.Nauch:hover {
+    filter: brightness(0.7)
 }
 
 .TEXT-LABS {
@@ -137,17 +146,31 @@ body {
     width: 300px;
     margin-bottom: 30px;
     box-shadow: 0 0 10px rgba(131, 9, 8, 1);
+    transition: filter .7s ease-in-out;
+}
+
+.UCH:hover {
+    filter: brightness(1.3)
 }
 
 .MASTER {
     width: 300px;
     margin-bottom: 30px;
     box-shadow: 0 0 10px rgba(131, 9, 8, 1);
+    transition: filter .7s ease-in-out;
+}
+
+.MASTER:hover {
+    filter: brightness(1.2)
 }
 
 .REST {
     width: 300px;
     margin-bottom: 30px;
     box-shadow: 0 0 15px rgba(131, 9, 8, 1);
+    transition: filter .7s ease-in-out;
 }
 
+.REST:hover {
+    filter: brightness(1.2)
+}
