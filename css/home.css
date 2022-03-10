@@ -8,6 +8,12 @@ body {
     position: relative;
 }
 
+@media screen and (max-width: 653px) {
+    .Logo{
+        width: 230px;
+    }
+}
+
 .text-1 {
     margin-top: 50px;
 }
@@ -85,17 +91,10 @@ body {
     padding-left: 50px;
 }
 
-.GPS {
-    margin-top: 50px;
-    position: relative;
-}
-
-.GPS h1 {
-    text-align: center;
-}
-
-.GPS h4 {
-    text-align: center;
+@media screen and (max-width: 653px) {
+    .Form{
+        width: 100%;
+    }
 }
 
 .LABS {
@@ -116,6 +115,12 @@ body {
     transition: filter .7s ease-in-out;
 }
 
+@media screen and (max-width: 653px) {
+    .Ycheb{
+        width: 230px;
+    }
+}
+
 .Ycheb:hover {
     filter: brightness(0.7)
 }
@@ -126,6 +131,12 @@ body {
     box-shadow: 0 0 20px;
     margin-bottom: 30px;
     transition: filter .7s ease-in-out;
+}
+
+@media screen and (max-width: 653px) {
+    .Nauch{
+        width: 230px;
+    }
 }
 
 .Nauch:hover {
@@ -174,3 +185,33 @@ body {
 .REST:hover {
     filter: brightness(1.2)
 }
+
+@media screen and (max-width: 653px) {
+    .REST{
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 653px) {
+    .MASTER{
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 653px) {
+    .UCH{
+        width: 230px;
+    }
+}
+
+.GPS {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.after-2 {
+    margin-bottom: 20px;
+}
+
+
+
