@@ -61,7 +61,11 @@
     .grid-cont {
         grid-template-columns: 328px 306px 306px;
     }
+    .shadow-ch {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    }
 }
+
 
 @media screen and (max-width: 955px) {
     .grid-cont {
