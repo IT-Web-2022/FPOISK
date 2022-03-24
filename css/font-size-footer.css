@@ -227,3 +227,11 @@
     background-image:url(../img/Vector-3.png); 
     margin: 0%;
 }
+.logo-2 {
+width: 36px;
+height: 36px;
+border: 0px;
+padding-right: 29px;
+margin-right: 40px;
+background-repeat: no-repeat;
+}
