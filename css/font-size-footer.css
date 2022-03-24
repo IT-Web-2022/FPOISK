@@ -201,3 +201,29 @@
         height: 200px;
     }
 }
+
+/* CНИЗУ РЕДАКТИРОВАНИЕ ХЕДЕРА */
+
+.img-1{
+    width: 26px; 
+    background-repeat: no-repeat; 
+    height: 14px; 
+    background-image:url(../img/Vector-1.png); 
+    margin: 0%;
+}
+
+.img-2{
+    width: 24px; 
+    background-repeat: no-repeat; 
+    height: 20px; 
+    background-image:url(../img/Vector-2.png); 
+    margin: 0%;
+}
+
+.img-3{
+    width: 22px; 
+    background-repeat: no-repeat; 
+    height: 22px; 
+    background-image:url(../img/Vector-3.png); 
+    margin: 0%;
+}
